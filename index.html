@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="left-side">
+            <div class="text">
+                <h1>Fast Delivery</h1>
+                <p>Fast, Reliable, Delivered with Care</p>
+            </div>
+            <img src="images/undraw_on_the_way_re_swjt (1).svg" alt="illustration delivery">
+        </div>
+        <div class="form-container">
+            <h1>Get Started</h1>
+
+            <form action="" id="myForm">
+                <input type="text" name="first-name" placeholder="First Name">
+                <input type="text" name="last-name" placeholder="Last Name">
+
+                <input type="email" name="email" placeholder="Email" checked>
+                <input type="tel" name="phone" placeholder="Phone">
+
+                
+                <input type="password" name="password" placeholder="Password" onkeyup="check();">
+                <input type="password" name="confirm password" placeholder="Confirm Password" onkeyup="check();">
+
+                <input type="submit" value="Create Account">
+            </form>
+            <p>Already have an account..? <span>Log in</span></p>
+        </div>
+    </div>
+
+    <script src="js/min.js"></script>
+</body>
+</html>
